@@ -13,7 +13,6 @@ import com.android.volley.toolbox.Volley;
 import com.example.aexpress.adapters.ProductAdapter;
 import com.example.aexpress.databinding.ActivitySearchBinding;
 import com.example.aexpress.model.Product;
-import com.example.aexpress.utils.Constants;
 
 import org.json.JSONArray;
 import org.json.JSONException;
