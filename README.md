@@ -10,7 +10,7 @@ Follow these steps to set up the project:
 
 In this Android Assignment, I have built two screens - a product listing screen and an add product screen. 
 
-Screen 1 (Fragment): Listing Products.
+# Screen 1 (Fragment): Listing Products.
 
 Requirements:
 
@@ -58,7 +58,7 @@ Expected Response:
 ]
 ```
 
-Screen 2: Add Product Screen.
+# Screen 2: Add Product Screen.
 
 Create a screen that allows the user to add a new product with the following features:
 
