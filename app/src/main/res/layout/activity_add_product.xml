@@ -1,0 +1,70 @@
+<!-- res/layout/activity_add_product.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/spinnerProductType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Select Product Type"
+        />
+
+    <EditText
+        android:id="@+id/editTextProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerProductType"
+        android:layout_marginTop="8dp"
+        android:hint="Product Name"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/editTextSellingPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextProductName"
+        android:layout_marginTop="8dp"
+        android:hint="Selling Price"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/editTextTaxRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextSellingPrice"
+        android:layout_marginTop="8dp"
+        android:hint="Tax Rate"
+        android:inputType="numberDecimal"/>
+
+    <!-- Add an ImageView for image selection (not implemented here) -->
+
+    <Button
+        android:id="@+id/btnSelectImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTaxRate"
+        android:layout_marginTop="8dp"
+        android:text="Select Image"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/btnSelectImage"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="16dp"
+        android:text="Submit"/>
+</RelativeLayout>

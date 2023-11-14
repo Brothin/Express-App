@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Express</string>
+    <string-array name="product_types">
+        <item>Type A</item>
+        <item>Type B</item>
+        <item>Type C</item>
+        <!-- Add more product types as needed -->
+    </string-array>
+</resources>
